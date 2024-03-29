@@ -56,3 +56,43 @@ print(tuple({1,3,5}))
 print(list('andriyanto'))
 print(dict[[1,2],[3,4]])
 print(dict([(2,3),(3.4,3)]))
+print(type(z))
+kata = 'dicoding'
+kata = kata.upper()
+print(kata)
+tulisan = 'DICODING'
+tulisan = tulisan.lower()
+print(tulisan)
+print(' '.join(['dicoding','indonesia','menyala']))
+print('menyala indonesiaku'.split())
+kata ='dicoding'
+print(kata.islower())
+print('dicoding'.center(10,'_'))
+contoh_list =[1,2,3,4,1,2,4]
+print(contoh_list)
+print(len(contoh_list))
+contoh_data=set([1,2,2,3,4,4,5,6])
+print(contoh_data)
+print(len(contoh_data))
+data="belajar python"
+print(data)
+print(len(data))
+angka =[12,23,3445,23,332,456]
+print(min(angka))
+print(max(angka))
+genap =[2,4,6,8,8,8,4,4,6,4,4,4,4,4,4,4,44]
+print(genap.count(4))
+string ="sekarang adalah waktunya untuk belajar bahasa pemrograman"
+substring= "y"
+print(string.count(substring))
+print('belajar'in string)
+print('saat'not in string)
+data= ['kaos','merah','small']
+jenis,warna,ukuran=data
+print(data)
+print(jenis)
+print(warna)
+print(ukuran)
+kendaraan =['motor','becak','helikopter','pesawat']
+kendaraan.sort()
+print(kendaraan)
